@@ -1,4 +1,4 @@
-# 🪞 EchoAI — Zoom Meeting TL;DRs in One Command
+# EchoAI — Zoom Meeting TL;DRs in One Command
 
 _EchoAI is a privacy-friendly CLI tool that summarizes your Zoom meetings using GPT. No setup, no coding. Just run it and get your recap._
 
@@ -6,7 +6,7 @@ This repo contains the **launcher scripts** for EchoAI. The heavy lifting runs i
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Download the CLI script
 
@@ -27,34 +27,34 @@ This saves your key to `~/.echo-api-key` for future runs.
 
 ---
 
-## ✅ Requirements
+## Requirements
 
-- 🐳 [Docker installed](https://www.docker.com/products/docker-desktop/)
-- 🧾 OpenAI API key ([get one](https://platform.openai.com/account/api-keys))
-- 🗂️ Your Zoom transcripts saved in: `~/Documents/Zoom/`
+- [Docker installed](https://www.docker.com/products/docker-desktop/)
+- OpenAI API key ([get one](https://platform.openai.com/account/api-keys))
+- Your Zoom transcripts saved in: `~/Documents/Zoom/`
 
 EchoAI will find them automatically.
 
 ---
 
-## 🧠 Usage
+## Usage
 
-### ▶️ Show most recent meetings
+### Show most recent meetings
 
 ```bash
 echoai
 ```
 
 Displays your 10 most recent meetings with:
-- 📅 Timestamp
-- 🧠 Inferred topic
-- 🗣️ Top 3 speakers
+- Timestamp
+- Inferred topic
+- Top 3 speakers
 
 Pick a number to summarize.
 
 ---
 
-### 🔍 Search meetings by keyword
+### Search meetings by keyword
 
 ```bash
 echoai Goose Q3 Bearman
@@ -69,7 +69,7 @@ Then shows the closest matches to pick from.
 
 ---
 
-### 📝 Outputs
+### Outputs
 
 EchoAI will:
 - Generate a **.summary.txt** file next to your transcript
@@ -78,7 +78,7 @@ EchoAI will:
 
 ---
 
-## 🔐 Security
+## Security
 
 - Your API key is stored only in `~/.echo-api-key` (chmod 600)
 - No data is saved inside the Docker container
@@ -86,7 +86,7 @@ EchoAI will:
 
 ---
 
-## 🐳 What’s inside the container?
+## What’s inside the container?
 
 EchoAI runs:
 
@@ -106,6 +106,6 @@ echoai
 
 ---
 
-## 💬 Feedback? Questions?
+## Feedback? Questions?
 
 Open an issue on this repo or message [@allisondw](https://github.com/allisondw).
