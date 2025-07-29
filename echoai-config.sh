@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Let's set up your OpenI API key for Echo."
+echo "Let's set up your OpenAI API key for EchoAI."
 read -s -p "Enter your OpenAI API key (input hidden): " api_key
 echo ""
 
-CONFIG_PATH="$HOME/.echo-api-key"
+CONFIG_PATH="$HOME/.echoai-api-key"
 
 # save key securely
 echo "$api_key" > "$CONFIG_PATH"
