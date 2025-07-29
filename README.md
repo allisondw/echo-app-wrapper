@@ -1,5 +1,7 @@
 # EchoAI — Zoom Meeting TL;DRs in One Command
 
+![Docker Pulls](https://img.shields.io/badge/docker-ghcr.io%2Fallisondw%2Fechoai-blue)
+
 _EchoAI is a privacy-friendly CLI tool that summarizes your Zoom meetings using GPT. No setup, no coding. Just run it and get your recap._
 
 This repo contains the **launcher scripts** for EchoAI. The heavy lifting runs in Docker, so you don’t need to install Python or any dev tools.
