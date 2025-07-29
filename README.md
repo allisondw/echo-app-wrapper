@@ -25,7 +25,7 @@ chmod +x echoai-config.sh
 ./echoai-config.sh
 ```
 
-This saves your key to `~/.echo-api-key` for future runs.
+This saves your key to `~/.echoai-api-key` for future runs.
 
 ---
 
@@ -82,7 +82,7 @@ EchoAI will:
 
 ## Security
 
-- Your API key is stored only in `~/.echo-api-key` (chmod 600)
+- Your API key is stored only in `~/.echoai-api-key` (chmod 600)
 - No data is saved inside the Docker container
 - All transcript summarization happens locally, with API calls only to OpenAI
 
