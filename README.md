@@ -2,7 +2,7 @@
 
 ![Docker Pulls](https://img.shields.io/badge/docker-ghcr.io%2Fallisondw%2Fechoai-blue)
 
-_EchoAI is a privacy-friendly CLI tool that summarizes your Zoom meetings using the OpenAI API._
+_EchoAI is a CLI tool that summarizes your Zoom meetings using the OpenAI API._
 
 This repo contains the **launcher scripts** for EchoAI, with the heavy lifting done in Docker.
 
