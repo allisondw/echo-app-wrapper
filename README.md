@@ -1,10 +1,10 @@
-# EchoAI — Zoom Meeting TL;DRs in One Command
+# EchoAI — Zoom Meeting TL;DRs
 
 ![Docker Pulls](https://img.shields.io/badge/docker-ghcr.io%2Fallisondw%2Fechoai-blue)
 
-_EchoAI is a privacy-friendly CLI tool that summarizes your Zoom meetings using GPT. No setup, no coding. Just run it and get your recap._
+_EchoAI is a privacy-friendly CLI tool that summarizes your Zoom meetings using the OpenAI API._
 
-This repo contains the **launcher scripts** for EchoAI. The heavy lifting runs in Docker, so you don’t need to install Python or any dev tools.
+This repo contains the **launcher scripts** for EchoAI, with the heavy lifting done in Docker.
 
 ---
 
@@ -59,7 +59,7 @@ Pick a number to summarize.
 ### Search meetings by keyword
 
 ```bash
-echoai Goose Q3 Bearman
+echoai Q3 Andrew Walsh 07-24-2025
 ```
 
 Matches your search terms against:
@@ -100,7 +100,7 @@ docker run -it --rm \
   --zoom-dir /zoom [--list-recent 10 | --search ...]
 ```
 
-…but you never have to type that. Just run:
+…but you don't have to type that. Just run:
 
 ```bash
 echoai
